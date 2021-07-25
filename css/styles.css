@@ -1,0 +1,245 @@
+:root {
+  --main-text-cl: #757575;
+  --title-text-cl: #212121;
+  --logo-text-cl: #000000;
+  --alt-text-cl: #ffffff;
+  --secondary-text-cl: rgba(255, 255, 255, 0.6);
+  --accent-cl: #2196f3;
+
+  --primary-bg-cl: #ffffff;
+  --accent-bg-cl: #f5f4fa;
+  --black-bg-cl: #2f303a;
+
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  /* font-size: 14px;
+  line-height: 1.71; */
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+  background-color: var(--primary-bg-color);
+}
+
+/* Верхняя линия - Шапка */
+.nav-header {
+  background-color: var(--primary-bg-cl);
+}
+
+.link-logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-cl);
+}
+
+.logo-header {
+  color: var(--logo-text-cl);
+}
+
+.logo-footer {
+  color: var(--alt-text-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.link-nav,
+.link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-cl);
+  text-decoration: none;
+}
+
+.link-header {
+  color: var(--main-text-cl);
+}
+
+.link-nav:hover,
+.link-nav:focus,
+.link-header:hover,
+.link-header:focus {
+  color: var(--accent-cl);
+}
+
+.list .link-nav.current {
+  color: var(--accent-cl);
+}
+
+/* Герой */
+.hero-section {
+  background-color: var(--black-bg-cl);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alt-text-cl);
+}
+
+.white-space {
+  white-space: nowrap;
+}
+
+.studio-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--alt-text-cl);
+  background-color: var(--accent-cl);
+  cursor: pointer;
+}
+
+/* Особенности */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.features-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-text-cl);
+  text-transform: uppercase;
+}
+.text1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+/* Чем мы занимаемся */
+
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-cl);
+}
+
+/* Наша команда */
+.team-section {
+  background-color: var(--accent-bg-cl);
+}
+
+.team-title-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-cl);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+/* Подвал */
+.footer {
+  background-color: var(--black-bg-cl);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-cl);
+  text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-cl);
+}
+
+.link-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-cl);
+}
+
+/* PORTFOLIO */
+.name-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-cl);
+}
+
+.portfolio-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-cl);
+  background-color: var(--accent-bg-cl);
+  cursor: pointer;
+}
+
+.list .button-portfolio.actively {
+  color: var(--alt-text-cl);
+  background-color: var(--accent-cl);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-cl);
+  color: var(--alt-text-cl);
+}
