@@ -16,24 +16,26 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <!-- Верхняя линия -->
+
   <body>
-    <!-- Верхняя линия - Шапка -->
+    <!-- ВЕРХНЯЯ ЛИНИЯ -->
     <header class="nav-header">
-      <nav>
-        <a href="./index.html" class="link-logo" lang="en">Web<span class="logo-header">Studio</span></a>
+      <div class="container main-nav">
+        <a href="./index.html" class="link-logo-header" lang="en">Web<span class="sublogo-header">Studio</span></a>
 
-        <ul class="list">
-          <li><a class="link-nav" href="./index.html">Студия</a></li>
-          <li><a class="link-nav current" href="">Портфолио</a></li>
-          <li><a class="link-nav" href="">Контакты</a></li>
+        <nav>
+          <ul class="list site-nav">
+            <li class="item"><a class="link-nav" href="./index.html">Студия</a></li>
+            <li class="item"><a class="link-nav current" href="">Портфолио</a></li>
+            <li class="item"><a class="link-nav" href="">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="list list-contact">
+          <li class="item"><a class="link-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item"><a class="link-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-
-      <ul class="list">
-        <li><a class="link-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -97,20 +99,22 @@
         </ul>
       </section>
     </main>
-    <!-- Подвал -->
+    <!-- ПОДВАЛ -->
     <footer class="footer">
-      <a href="./index.html" class="link-logo" lang="en">Web<span class="logo-footer">Studio</span></a>
-      <address>
-        <ul class="list">
-          <li>
-            <a class="address" href="https://goo.gl/maps/Poxogy9ZwxsRHQay8" target="_blank"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li><a class="link-footer" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="link-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="link-logo-footer" lang="en">Web<span class="sublogo-footer">Studio</span></a>
+        <address>
+          <ul class="list">
+            <li class="item">
+              <a class="link-address" href="https://goo.gl/maps/Poxogy9ZwxsRHQay8" target="_blank"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="item"><a class="link-footer" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="item"><a class="link-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
