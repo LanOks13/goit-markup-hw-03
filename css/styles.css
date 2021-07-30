@@ -442,6 +442,9 @@ address .item:not(:last-child) {
 /*  КІНЕЦЬ CSS КНОПОК-ФІЛЬТРІВ */
 
 /* OUR-PROJECTS */
+.description {
+  padding: 20px 24px;
+}
 .name-work {
   font-weight: 700;
   font-size: 18px;
@@ -456,4 +459,25 @@ address .item:not(:last-child) {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+}
+
+.our-projects {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: calc(-1 * var(--margin-left-li));
+  margin-top: calc(-1 * var(--margin-left-li));
+}
+
+.our-projects > .item {
+  flex-basis: calc(100% / 3 - var(--margin-left-li));
+  margin-left: var(--margin-left-li);
+  margin-top: var(--margin-left-li);
+
+  background: var(--primary-bg-cl);
+  border: 1px solid #eeeeee;
 }
