@@ -412,7 +412,6 @@ address .item:not(:last-child) {
   cursor: pointer;
 
   padding: 6px 22px;
-  /* margin-bottom: 16px; */
   border: none;
   border-radius: 4px;
 }
