@@ -107,7 +107,7 @@ img {
 .list-contact {
   display: flex;
   align-items: center;
-  margin: auto;
+  margin-left: auto;
 }
 
 /* 1-й спосіб відступу елементів один від одного */
@@ -257,6 +257,7 @@ img {
 
 .features-section {
   padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ - WORK SECTION */
@@ -288,7 +289,6 @@ img {
   margin-top: var(--margin-left-li);
 }
 .work-section {
-  padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
 }
 
@@ -302,6 +302,8 @@ img {
 .content {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-title-list {
